@@ -1,0 +1,40 @@
+/* Stylesheet for contact.html */
+
+
+/* adding style to the main container */
+.container {
+    margin: 2rem auto;
+    max-width: 90%;
+    width: 500px;
+    border: 2px solid var(--dodger-blue);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+
+/* adding style to the page heading which is in inside container class */
+.container h1 {
+    margin: auto;
+    margin-bottom: 1rem;
+    color: var(--dodger-blue);
+    text-align: center;
+    border-bottom: 2px solid var(--dodger-blue);
+}
+
+
+/* adding style to details tag present in container class using their classes */
+.container .mobile, .container .email, .container .address {
+    margin: 1rem auto;
+    margin-left: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* adding style to p, address, a tag present inside container class */
+.container p, .container address, .container a{
+    max-width: 80%;
+    width: 300px;
+    margin-left: auto;
+    margin-right: 1rem;
+    font-size: 1rem;
+}

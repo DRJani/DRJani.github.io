@@ -1,0 +1,74 @@
+/* stylesheet for the index page */
+
+
+/* adding style to main container having container class */
+.container {
+    margin: 2rem auto;
+    border: 2px solid var(--dodger-blue);
+    padding: 1rem;
+    border-radius: 10px;
+    width: 700px;
+    padding-bottom: 2rem;
+}
+
+/* adding style to the title of the page */
+.title {
+    color: var(--dodger-blue);
+    border-bottom: 2px solid var(--dodger-blue);
+    text-align: center;
+    margin: 2rem 1rem;
+    margin-top: 1rem;
+}
+
+
+/* style for profile container */
+.profile-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container div {
+    margin: auto;
+}
+
+.container .profile {
+    max-width: 500px;
+}
+
+
+/* adding style to the detail tag */
+.profile details summary {
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.profile details summary:hover {
+    color: var(--dodger-blue);
+}
+
+
+/* adding style to the content in profile container */
+.profile details p {
+    border: 1.5px solid mintcream;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 8px;
+}
+
+.profile details ul {
+    padding-left: 2rem;
+}
+
+
+.container .name {
+    color: var(--dodger-blue);
+    border-bottom: 2px solid var(--dodger-blue);
+    margin: 1rem 0rem;
+}
+
+
+/* adding style to the profile image */
+.image img {
+    max-width: 200rem;
+    max-height: 200px;
+}

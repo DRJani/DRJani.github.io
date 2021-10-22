@@ -1,0 +1,37 @@
+/* main stylesheet used in all the pages */
+
+
+/* importing font */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&display=swap');
+
+
+/* declaring variables */
+:root {
+    --black: black;
+    --mintcream: mintcream;
+    --dodger-blue: #007bff;
+    --border-blue: #122647;
+}
+
+
+/* adding style in all tags */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* adding style to the body tag */
+body {
+    background-color: var(--black);
+    color: var(--mintcream);
+    font-family: 'JetBrains Mono';
+    height: 100vh;
+    margin-bottom: 5rem;
+}
+
+
+/* setting for for div & body tag  */
+body, div {
+    font-family: 'JetBrains Mono' !important;
+}
+

@@ -1,0 +1,76 @@
+/* Stylesheet for education.html */
+
+
+/* adding style to main container */
+.container {
+    margin: 2rem auto;
+    max-width: 90vw;
+    width: 700px;
+}
+
+/* adding style to the heading */
+.container .title {
+    color: var(--dodger-blue);
+    border-bottom: 2px solid var(--dodger-blue);
+    text-align: center;
+    width: fit-content;
+    margin: 2rem auto;
+}
+
+/* adding style to the eductional container which holds the edu detail */
+.education-container {
+    border: 2px solid var(--dodger-blue);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    background-color: var(--border-blue);
+    margin-bottom: 1rem;
+}
+
+/* adding style to the image container of inside education-container class */
+.education-container .edu-img-container {
+    width: 30%;
+    margin-right: 10px;
+}
+
+/* adding style to the image of eductional container */
+.education-img {
+    max-width: 100%;
+    min-width: 80px;
+}
+
+/* adding style to the title of eductional container */
+.education-container .education-header {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 1rem;
+    border-bottom: 2px solid var(--mintcream);
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+
+
+/* adding style to the summary to the trip-details class having detail tag */
+.trip-details summary{
+    margin: 5px auto;
+    cursor: pointer;
+}
+
+/* adding style to the trip-detail class on hover */
+.trip-details summary:hover {
+    color: var(--dodger-blue);
+}
+
+/* adding style for trip images container */
+.trip-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* adding style for trip details images */
+.trip-images img {
+    max-width: 200px;
+    margin-bottom: 1rem;
+    max-height: 250px;
+}

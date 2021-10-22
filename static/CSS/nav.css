@@ -1,0 +1,31 @@
+/* Stylesheet for navbar */
+
+/* used in all pages */
+
+/* adding styles for nav container */
+
+.nav {
+    background-color: var(--border-blue);
+    border-bottom: 2px solid var(--dodger-blue);
+    border-top: 2px solid var(--dodger-blue);
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+    font-size: 1rem;
+    justify-content: space-around;
+}
+
+/* adding styles for buttons in navbar */
+
+.nav-btn {
+    text-decoration: none;
+    color: var(--dodger-blue);
+    outline: none;
+    padding: 10px;
+    border: none;
+}
+
+/* adding styles for buttons in navbar while hovering */
+.nav-btn:hover {
+    color: var(--mintcream);
+}
